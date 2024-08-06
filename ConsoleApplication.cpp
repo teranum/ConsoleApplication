@@ -3,8 +3,14 @@
 
 #include <iostream>
 
+#import "progid:KHOPENAPI.KHOpenAPICtrl.1" no_namespace
+
+#include "AxKHOpenApi.h"
+
+AxKHOpenApi api;
 int main()
 {
+	api.Create(nullptr);
     std::cout << "Hello World!\n";
 }
 
